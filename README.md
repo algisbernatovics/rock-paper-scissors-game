@@ -1,22 +1,32 @@
 # Rock Paper Scissors Game
 
-A PHP implementation of an extended Rock Paper Scissors game model.
+An object-oriented PHP implementation of an extended Rock Paper Scissors game model.
 
-## Overview
+## Learning Goal
 
-A PHP implementation of an extended Rock Paper Scissors game model.
+Practice modeling game choices and players with classes instead of putting all logic into one procedural script.
 
 ## Features
 
 - Defines game elements and player behavior as classes.
 - Separates model objects from the public entry point.
-- Keeps game logic readable for a small OOP exercise.
+- Keeps the game logic readable for a small OOP exercise.
+
+## Complexity
+
+- Time: `O(1)` per round.
+- Space: `O(1)` for the current game state.
 
 ## Tech Stack
 
 - PHP
 - Object-oriented programming
-- CLI/web entry script
+
+## Run
+
+```bash
+php public/RockPaperScissorsGame.php
+```
 
 ## Project Structure
 
@@ -24,19 +34,6 @@ A PHP implementation of an extended Rock Paper Scissors game model.
 - `app/Models/Player.php` - player behavior
 - `public/RockPaperScissorsGame.php` - entry point
 
-## Getting Started
+## License
 
-Run the public script with PHP:
-
-```bash
-php public/RockPaperScissorsGame.php
-```
-
-## Portfolio Notes
-
-- Demonstrates basic OOP modeling in PHP.
-- Suitable as a small portfolio example for class decomposition.
-
-## Status
-
-Portfolio-ready PHP exercise.
+MIT License. See [LICENSE](./LICENSE).
